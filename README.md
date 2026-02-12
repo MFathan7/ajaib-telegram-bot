@@ -45,6 +45,7 @@ Saat ini bot belum bisa dijalankan multi-platform. Pastikan sistem Anda memenuhi
 ### Langkah 1: Persiapan Folder
 1. Download file ZIP **ajaib-telegram-bot**.
 2. Extract (unzip) ke sebuah folder di komputer Anda.
+3. Buka terminal di dalam folder project yang sudah di unzip, lalu ketik `pip install -r requirements.txt`
 
 ### Langkah 2: Konfigurasi Environment (.env)
 Bot ini membutuhkan "Pass Key" untuk berjalan.
