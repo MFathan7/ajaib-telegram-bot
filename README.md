@@ -6,13 +6,13 @@
 
 Harap baca poin berikut sebelum menggunakan bot ini:
 
-**PRIVASI TOTAL:** Developer TIDAK PERNAH mengoleksi, menerima, atau menyimpan data login (Email, Password, PIN) akun Ajaib Anda di server manapun.
+1. **PRIVASI TOTAL:** Developer TIDAK PERNAH mengoleksi, menerima, atau menyimpan data login (Email, Password, PIN) akun Ajaib Anda di server manapun.
 
-**PENYIMPANAN LOKAL:** Semua data sesi login disimpan secara LOKAL di dalam komputer/laptop Anda sendiri (user_data.json) dan diamankan dengan ENKRIPSI AES-256 menggunakan kunci pribadi Anda.
+2. **PENYIMPANAN LOKAL:** Semua data sesi login disimpan secara LOKAL di dalam komputer/laptop Anda sendiri (user_data.json) dan diamankan dengan ENKRIPSI AES-256 menggunakan kunci pribadi Anda.
 
-**TANGGUNG JAWAB:** Developer TIDAK BERTANGGUNG JAWAB atas segala bentuk kehilangan aset, kerugian trading (Loss), atau peretasan akun yang disebabkan oleh kelalaian pengguna dalam menjaga keamanan komputer (kena virus/malware) atau kebocoran file .env.
+3. **TANGGUNG JAWAB:** Developer TIDAK BERTANGGUNG JAWAB atas segala bentuk kehilangan aset, kerugian trading (Loss), atau peretasan akun yang disebabkan oleh kelalaian pengguna dalam menjaga keamanan komputer (kena virus/malware) atau kebocoran file .env.
 
-**BUKAN SARAN KEUANGAN:** Segala analisa yang dihasilkan bot hanyalah alat bantu statistik. Keputusan jual/beli sepenuhnya ada di tangan pengguna.
+4. **BUKAN SARAN KEUANGAN:** Segala analisa yang dihasilkan bot hanyalah alat bantu statistik. Keputusan jual/beli sepenuhnya ada di tangan pengguna.
 
 ---
 
@@ -37,6 +37,11 @@ Memberikan notifikasi harga sesuai dengan keingan anda.
 - Pasang alarm harga (Atas/Bawah).
 - Notifikasi instan saat harga tersentuh.
 - **Session Guard:** Bot akan mengingatkan jika sesi login Ajaib Anda habis.
+
+### 🔐 5. Remote License Validation
+Bot ini dilengkapi sistem pengecekan digital lisensi:
+- **Real-time Check:** Bot secara berkala mengecek status lisensi ke file yang ada di Git Cloud (Developer).
+- **Auto-Lock:** Jika status lisensi dinonaktifkan oleh developer atau masa berlaku habis, bot akan otomatis berhenti beroperasi.
 
 ---
 
