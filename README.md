@@ -60,7 +60,6 @@ Saat ini bot belum bisa dijalankan multi-platform. Pastikan sistem Anda memenuhi
 ### Langkah 1: Persiapan Folder
 1. Download file ZIP **ajaib-telegram-bot**.
 2. Extract (unzip) ke sebuah folder di komputer Anda.
-3. Buka terminal di dalam folder project yang sudah di unzip, lalu ketik `pip install -r requirements.txt`
 
 ### Langkah 2: Konfigurasi Environment (.env)
 Bot ini membutuhkan "Pass Key" untuk berjalan.
@@ -78,7 +77,7 @@ DB_FILE=user_data.json
 - NCRYPTION_KEY: Buka terminal/CMD, ketik python lalu jalankan: `from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())` Copy hasilnya dan paste ke .env.
 
 ### Langkah 3: Jalankan Bot
-Buka cmd di dalam folder projectnya, lalu ketik `py main.py`
+Klik 2x file `run.bat`. Script ini akan otomatis menginstall library yang dibutuhkan dan menjalankan bot.
 
 ## 🎮 Daftar Perintah (Commands)
 
